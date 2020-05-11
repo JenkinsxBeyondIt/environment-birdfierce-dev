@@ -1,0 +1,10 @@
+adminUser:
+  password: local:birdfierce/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkinsx@beyondit.it
+  token: local:birdfierce/pipelineUser:token
+  username: JenkinsxBeyondIt
+prow:
+  hmacToken: local:birdfierce/prow:hmacToken
