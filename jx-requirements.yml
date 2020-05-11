@@ -3,7 +3,7 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/it-beyondit/jenkins-x-boot-config
 cluster:
-  clusterName: birdfierce
+  clusterName: liondisco
   devEnvApprovers:
   - ascotti-beyond
   - luca-dichiro
@@ -19,7 +19,7 @@ cluster:
   zone: europe-west2-a
 environments:
 - ingress:
-    domain: 34.105.248.59.nip.io
+    domain: 35.234.139.129.nip.io
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
@@ -27,7 +27,7 @@ environments:
       enabled: false
       production: false
   key: dev
-  repository: environment-birdfierce-dev
+  repository: environment-liondisco-dev
 - ingress:
     domain: ""
     externalDNS: false
@@ -37,7 +37,7 @@ environments:
       enabled: false
       production: false
   key: staging
-  repository: environment-birdfierce-staging
+  repository: environment-liondisco-staging
 - ingress:
     domain: ""
     externalDNS: false
@@ -47,10 +47,10 @@ environments:
       enabled: false
       production: false
   key: production
-  repository: environment-birdfierce-production
+  repository: environment-liondisco-production
 gitops: true
 ingress:
-  domain: 34.105.248.59.nip.io
+  domain: 35.234.139.129.nip.io
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
